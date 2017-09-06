@@ -1,0 +1,26 @@
+/* users */
+INSERT INTO `users`
+(`user_id`,
+`password`,
+`first_name`,
+`last_name`,
+`mail_address`,
+`delete_flag`,
+`created_id`,
+`updated_id`,
+`created_at`,
+`updated_at`,
+`version`)
+VALUES
+('system',
+'ABCDEFG+123456',
+'User',
+'System',
+'system@ntmlo.co.jp',
+false,
+'1',
+'1',
+NOW(),
+NOW(),
+default)
+;

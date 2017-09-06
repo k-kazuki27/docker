@@ -1,0 +1,9 @@
+GRANT
+        ALL PRIVILEGES
+            ON sample.* TO "sample"@"localhost" IDENTIFIED BY "sample";
+flush PRIVILEGES;
+GRANT
+        FILE
+            ON *.* TO "sample"@"localhost";
+
+FLUSH PRIVILEGES;
